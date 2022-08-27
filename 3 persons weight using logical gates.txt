@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+  int x,y,z;
+  x=12;
+  y=29;
+  z=10;
+  (x>y)?printf("x is big"):printf("y is big");
+  (y>z)?printf("y is big"):printf("z is big");
+ 
+}

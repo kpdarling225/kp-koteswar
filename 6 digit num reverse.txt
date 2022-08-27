@@ -1,0 +1,13 @@
+6 digit reverse/////
+   
+    int main()
+{
+  int num=456789;
+  int k;
+  while(num>0){
+      k=num%10;
+      num=num/10;
+      printf("%d",k);
+  }
+}
+output:987654.
