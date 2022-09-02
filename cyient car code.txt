@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int vir[20];
+    int i;
+    int EC=109186;
+    int HY=109206;
+    int PU=109226;
+    for(i=0;i<=20;i++){
+    EC=EC+1;
+    printf("1HGBH41JXMN %d\n ",EC);
+    HY=HY+1;
+   printf("1HGBH41JXMN %d\n ",HY);
+    PU=PU+1;
+    printf("1HGBH41JXMN %d\n ",PU);
+    
+    }   
+}

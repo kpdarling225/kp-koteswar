@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+   int a;
+   scanf("%d",&a);
+   if(a<=10){
+       printf("very cold water");
+   }
+   else if(a>=10 && a<=20){
+       printf("cold water");
+   }
+   else if(a>=20 && a<=30){
+       printf("normal water");
+   }
+   else if(a>=30 && a<=40){
+       printf("hot");
+   }
+   else{
+       printf("very hot");
+   }
+ 
+}

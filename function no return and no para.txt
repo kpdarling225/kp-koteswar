@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+
+
+void sum()
+{
+   int x=10,y=20;
+   printf("%d\n",x+y);
+}
+void mul(){
+    int x=10,y=20;
+    printf("%d\n ",x*y);
+}
+void sub(){
+    int x=10,y=20;
+    printf("%d\n",x-y);
+}
+int main(){
+    mul();
+    sum();
+    sub();
+}

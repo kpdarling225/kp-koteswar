@@ -1,0 +1,22 @@
+int main()
+{
+  int a,b,sum;
+  char opt;
+   printf("enter the values:");
+  scanf("%d %d",&a,&b);
+    
+  scanf("%c",&opt);
+  switch(opt){
+      case '*':printf("%d*%d=%d",a,b,a*b);
+      break;
+      case '+':printf("%d+%d=%d",a,b,a+b);
+      break;
+      case '-':printf("%d-%d=%d",a,b,a-b);
+      break;
+      case '/':printf("%d/%d=%d",a,b,a/b);
+      break;
+      default: printf("invalid");
+      break;
+    
+  }
+}

@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+   int a[10],i,n;
+   printf("enter the number:");
+   scanf("%d",&n);
+   printf("enter the elements:");
+   for(i=0;i<n;i++){
+       scanf("%d",&a[i]);
+   }
+       printf("the elements are in below\n:");
+       for(i=0;i<n;i++){
+           printf("%d",a[i]);
+       }
+   
+   
+}
