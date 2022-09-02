@@ -1,0 +1,56 @@
+#include <stdio.h>
+void play();
+void pause();
+void start();
+void stop();
+void current();
+void total();
+
+int main()
+{
+   int n;
+   printf("enter the choicice 0_start,1_play,2_stop,3_pause,4_current,5_total :");
+   scanf("%d",&n);
+   if(n==0){
+       start();
+   }
+   else if(n==1){
+       play();
+   }
+   else if(n==2){
+       stop();
+   }
+   else if(n==3){
+       pause();
+   }
+   else if(n==4){
+       current();
+   }
+   else if(n==5){
+       total();
+   }
+   else{
+       printf("default");
+   }
+}
+
+
+void start()
+{
+    printf("Music is playing song");
+}
+void play(){
+    printf("playing song");
+}
+void stop(){
+    printf("song stoped");
+}
+void pause(){
+    printf("song is paused ");
+}
+void current(){
+    printf("the song is paused");
+}
+void total(){
+    printf("total songs list");
+}
