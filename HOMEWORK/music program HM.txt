@@ -1,0 +1,94 @@
+#include <stdio.h>
+
+//function with argument declaration
+
+void phone(int option);
+
+void phone_call();
+
+void phone_msg();
+
+void phone_revcall();
+
+ 
+
+int main() {
+
+    int v_option; //declaring actual arguments
+
+    printf("select the action:\n1.call\n2.msg\n3.revcall\n");
+
+    printf("entre the function:");
+
+    scanf("%d",&v_option);
+
+   
+
+    //calling function
+
+    phone(v_option);
+
+ 
+
+    return 0;
+
+}
+
+//function definition
+
+void phone(int option)
+
+{
+
+  //choosing different functions using switch 
+
+    switch(option)
+
+    {
+
+      case 1:phone_call();break;
+
+      case 2:phone_msg();break;
+
+      case 3:phone_revcall();break;
+
+       }
+
+}
+
+//function definition
+
+void phone_call()
+
+{
+
+ 
+
+    printf("calling");
+
+}
+
+//function definition
+
+void phone_msg()
+
+{
+
+   
+
+    printf("received msg");
+
+}
+
+//function definition
+
+void phone_revcall()
+
+{
+
+   
+
+    printf("recalling");
+
+}
+
